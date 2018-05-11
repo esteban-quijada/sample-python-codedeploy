@@ -8,4 +8,7 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
+  files:
+    - codepipeline-demo-west-2/codepipeline
+    - appspec.yml
   discard-paths: yes
