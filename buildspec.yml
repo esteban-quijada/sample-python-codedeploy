@@ -10,5 +10,5 @@ phases:
 artifacts:
   type: CODEPIPELINE
   files:
-    - appspec.yml
+    - sample-python-codedeploy/**/*
   discard-paths: yes
